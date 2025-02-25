@@ -8,6 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" required placeholder="Name"> <br>
+		<label for="email">Email</label>
+		<input type="email" id="email" required placeholder="Email"> <br>
+		<label for="gender_m">Male</label>
+		<input type="radio" id="gender_m" required name="gender">
+		<label for="gender_f">Female</label>
+		<input type="radio" id="gender_F" required name="gender"> <br>
+		<label for="cars">Car Brands</label>
+		<select type="Select" required id="cars" placeholder="--Please choose an option--">
+			<option>--Please choose an option--</option>
+			<option>BMW</option>
+			<option>Ferrari</option>
+			<option>Audi</option>
+		</select> <br>
+		<label for="age">Age</label>
+		<input type="number" id="age" required placeholder="Age"> <br>
+		<label for="dob">DOB</label>
+		<input type="date" required id="dob"> <br>
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"> <br>
+		<label for="password">Password</label>
+		<input type="password" required id="password" placeholder="Password"> <br>
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" required id="tos">
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
